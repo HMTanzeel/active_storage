@@ -1,0 +1,8 @@
+<div>
+  <h2>LogIn</h2>
+  <%= form_tag '/login' do %>
+    Email: <%= text_field_tag :email_address %>
+    Password: <%= password_field_tag :password %>
+    <%= submit_tag "LogIn" %>
+  <% end %>
+</div>

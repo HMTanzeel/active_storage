@@ -1,0 +1,9 @@
+<h1>New User Pages</h1>
+
+<%= form_for @user do |f| %>
+  <%= f.lable :email_address %>
+  <%= f.text_field :email_address %>
+  <%= f.lable :password %>
+  <%= f.text_field :password %>
+  <%= f.submit "Create Acount" %>
+<% end %>
